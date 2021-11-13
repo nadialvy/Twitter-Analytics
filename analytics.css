@@ -1,0 +1,164 @@
+/* cssreset */
+html, body, footer{
+    padding: 0;
+    margin: 0;
+}
+
+/* cssreset end */
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.teks h2{
+    font-size: 45px;
+    color: #44C8F5;
+    font-weight: 550;
+}
+
+.teks p{
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.teks button{
+    background-color: #44C8F5;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    bottom: 35px;
+}
+
+.teks{
+    position: relative;
+    top: 150px;
+    /* border: 1px solid black; */
+    left: 150px;;
+}
+
+
+.image{
+    position: relative;
+    left: 600px;
+    bottom: 130px;
+}
+
+/* main */
+.dash h3{
+    font-weight: 400;
+    font-size: 30px;
+    color: #44C8F5;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    padding: 0 16px;
+    background-color: #fff;
+}
+
+.dash .container {
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    bottom: 80px;
+}
+
+.dash1, .dash2, .dash3{
+    /* border: 1px solid black; */
+    width: 20%;
+    align-self: center;
+    text-align: center;
+
+}
+
+.container h5{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container p{
+    font-weight: 280;
+    font-size: 14px;
+    position: relative;
+    bottom: 18px;
+}
+
+.analytics h3{
+    font-weight: 400;
+    font-size: 30px;
+    color: #44C8F5;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    padding: 0 16px;
+    background-color: #fff;
+}
+
+.container_an{
+    width: 45%;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 90px;
+    margin: 0 auto;
+}
+
+.container_an a{
+    color: #44C8F5;
+    text-decoration: none;
+}
+
+.an1, .an2{
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow: auto;
+}
+
+.an1 img, .an2 img{
+    float: left;
+    margin: 10px;
+}
+
+.container_an .head{
+    position: relative;
+    top: -9px;
+    font-weight: 390;
+    font-size: 18px;
+}
+
+.an1 p{
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+    /* border: 1px so; */
+}
+
+.an2 p{
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}
+
+footer{
+    background-color: #f5f8fa;;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.foot a{
+    color:#44C8F5;
+    text-decoration: none;
+}
+
+footer .links a{
+    color: #44C8F5;
+    margin: 0 10px;
+    text-decoration: none;
+}
